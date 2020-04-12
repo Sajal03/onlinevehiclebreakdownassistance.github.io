@@ -1,0 +1,141 @@
+body{
+    /*background-color:#f1c35e;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: 	rgb(26, 24, 24);
+  }
+  li {
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  li a {
+    display: block;
+    color:#f1c35e;
+    text-align: center;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-bottom: 15px;
+    padding-top:140px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+  li a:hover {
+    background-color: black;
+    font-size: large;
+  }
+
+  .left img{
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 50%;
+    width: 120px;
+    height:120px;
+    border-color: #f1c35e;
+    border-width: 5px;
+    opacity: 1.0;
+  }
+  #profile{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(26, 24, 24); 
+    width: 900px;
+    height: 500px;
+    opacity: 0.75;
+  }
+  .left{
+    background-color: rgb(26, 24, 24);
+    float:left;
+    width: 300px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+  }
+  .next{
+    background-color: rgb(126, 118, 118); 
+    float:right;
+    width: 600px;
+    height: 500px;
+  }
+  button{
+      margin-top: 50px;
+      background-color: rgb(250, 249, 249);
+      height: 35px;
+      padding: 6px 10px;
+      font-size: 15px;  
+      font-weight: bold;
+  }
+  button:hover{
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    font-size:17px;
+   }
+   span{
+       margin-top: 100px;
+       color: black;
+       font-size: large;
+       font-weight: bold;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: black;}
+  .bar-4 {width: 30%; height: 18px; background-color: black;}
+  .bar-3 {width: 10%; height: 18px; background-color: black;}
+  .bar-2 {width: 4%; height: 18px; background-color: black;}
+  .bar-1 {width: 15%; height: 18px; background-color: black;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }

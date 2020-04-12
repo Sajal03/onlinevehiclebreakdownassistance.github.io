@@ -1,0 +1,78 @@
+body
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+{
+    background-color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: 	rgb(26, 24, 24);
+  }
+  li {
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  li a {
+    display: block;
+    color:#f1c35e;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+  li a:hover {
+    background-color: black;
+    font-size: large;
+
+   
+  }
+  .one{
+      background-color: rgb(26, 24, 24);
+      height:auto;
+      width: 600px;
+      margin: 40px 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  button{
+      background-color: #f1c35e;
+      display: block;
+      margin: 20px;
+      width: 400px;
+    height:55px;
+    /*font-family: "Comic Sans MS";*/
+    border-style: outset;
+    border-color: black;
+    font-size:18px;
+    cursor: pointer;
+    transition: 0.8s;
+    color: rgb(26, 24, 24);
+    border-radius: 15px;
+  }
+  button:hover{
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    font-size: 22px;
+
+   }
+   .foot{
+       background-color: rgb(26, 24, 24);
+       height:150px;
+       width:100%;
+   }
+   .fa{ 
+    font-weight: bold;
+    margin: 50px;
+  
+  }
+ .fa:hover{
+     font-size: x-large;
+     
+ }

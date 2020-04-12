@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+ <html lang="en" class="no-js"> 
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login and Registration Form </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="footer, address, phone, icons" />
+
+    <title>Responsive Footer</title>
+
+    <link rel="stylesheet" href="C:\Users\AYUSH\Documents\Html assignment\CSS files\style.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\AYUSH\Documents\Html assignment\CSS files\footer.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="C:\Users\AYUSH\Documents\Html assignment\CSS files\demo.css" />
+        <link rel="stylesheet" type="text/css" href="C:\Users\AYUSH\Documents\Html assignment\CSS files\style.css" />
+		<link rel="stylesheet" type="text/css" href="C:\Users\AYUSH\Documents\Html assignment\CSS files\animate-custom.css" />
+        <style>
+            body{
+    background-color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color:   rgb(26, 24, 24);
+  }
+  li {
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  li a {
+    display: block;
+    color:#f1c35e;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+  li a:hover {
+    background-color: black;
+    font-size: large;
+}
+        </style>
+    </head>
+    <body>
+        <ul style="margin-top:-10px; width: 500;">
+        
+         <li> <a href="C:\Users\AYUSH\Documents\Html assignment\Html files\smooth_ride.html">Home</a>
+            </li>
+            <li><a href="C:\Users\AYUSH\Documents\Html assignment\Html files\about us.html">About us</a></li>
+            <li><a href="C:\Users\AYUSH\Documents\Html assignment\Html files\subscibtionpage.html">Plans</a></li>
+            <li><a href="C:\Users\AYUSH\Documents\Html assignment\Html files\contact form page.html">Contact</a></li>
+            <li><a href="C:\Users\AYUSH\Documents\Html assignment\Html files\finder.html">Finder</a></li>
+            <li><a href = "C:\Users\AYUSH\Documents\Html assignment\Html files\login.html">Login</a></li>
+         </ul><br><br><br><br><br>
+        <div class="container">
+            <div class="codrops-top">
+                <div class="clr"></div>
+            </div>
+            <section>				
+                <div id="container_demo" >
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1>Log in</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping"><a href="C:\Users\AYUSH\Documents\Html assignment\Html files\terms and conditions.html">I have read and agree to the terms and conditions</a></label>
+								</p>
+
+                                <p class="terms and conditions">
+                                    <input type="checkbox" name="Terms and conditions" id="Terms and conditions" value="Terms and conditions" /> 
+                                    <label for="Terms and conditions">Keep me logged in</label>
+                                </p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Login" /> 
+								</p>
+                                <p class="change_link">
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Join us</a>
+								</p>
+                            </form>
+                        </div>
+
+                        <div id="register" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1> Sign up </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Sign up"/> 
+								</p>
+                                <p class="change_link">  
+									Already a member ?
+									<a href="#tologin" class="to_register"> Go and log in </a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+
+
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+          <img src="C:\Users\AYUSH\Documents\Html assignment\Images\ovbs.png">
+                <h3>About<span> Smooth Ride</span></h3>
+
+                <p class="footer-links">
+                    <a href="C:\Users\AYUSH\Documents\Html assignment\Html files\smooth_ride.html">Home</a>
+                    |
+                    <a href="#">Blog</a>
+                    |
+                    <a href="C:\Users\AYUSH\Documents\Html assignment\Html files\about us.html">About</a>
+                    |
+                    <a href="C:\Users\AYUSH\Documents\Html assignment\Html files\contact form page.html">Contact</a>
+                </p>
+
+                <p class="footer-company-name">© 2020 Smooth Ride Pvt. Ltd.</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                      <p><span>Jalandhar-Delhi G.T Road,
+                         Phagwara,</span>
+                        Punjab 144411</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 6370756634</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@smoothride.com">support@smoothride.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    We provide roadside assistance managing complex networks of high quality service providers to deliver the best services each and every time.</p>
+                <div class="footer-icons">
+                    <a href="https://hi-in.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/?hl=hi"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
